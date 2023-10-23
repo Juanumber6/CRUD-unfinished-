@@ -1,0 +1,165 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/FUNDO.jpg);
+}
+
+
+.container {
+    background-color: black;
+    border: outset 5px yellow;
+    box-shadow: 0px 0px 2px 2px black;
+    border-radius: 20px;
+    width: 400px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 90px;
+    padding-top: 300px;
+    display: block;
+    text-align: center;
+}
+.bvoltar {
+    position: fixed;
+    top: 185px;
+    left: 315px;
+    font-size: 20px;
+    color: White;
+    background: linear-gradient(to right, rgb(47, 0, 255), black);
+    border: solid black 2px;
+    border-radius: 30px;
+    margin-top: 375px;
+    padding: 5px 10px 5px 10px;
+}
+.bcriar {
+    font-size: 20px;
+    color: White;
+    background: linear-gradient(to right, rgb(47, 0, 255), black);
+    border: solid black 2px;
+    border-radius: 30px;
+    margin-top: 35px;
+    padding: 5px 10px 5px 10px;
+}
+label {
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(to right, rgb(47, 0, 255), black);
+    border: solid black 1px;
+    padding: 3px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+.email {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+button{
+    cursor: pointer;
+
+}
+#container2 {
+    display: none;
+}
+
+#pikachulogin {
+    position: absolute;
+    width: auto;
+    height: 350px;
+    left: 190px;
+    top: -40px;
+}
+
+
+#sidebar{
+    color: white;
+    background-color: black;
+    border: outset 1px white;
+    box-shadow: 0px 0px 2px 2px white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: larger;
+    position: absolute;
+    left: 780px;
+    top: 100px;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+#downarrow{
+    transform: rotate(180deg);
+}
+
+#img1, #img2, #img3, #img4 {
+    width: 420px;
+    height: auto;
+    border: solid 1px white;
+}
+
+#downarrow:hover, #uparrow:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#characters_container {
+    width: 420px;
+    height: 420px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 100px;
+    top: 90px;
+    transition: 0.5s;
+}
+
+#classe {
+    color: blue;
+    text-align: center;
+}
+
+table{
+    color: white;
+    font-size: large;
+    width: 100%;
+    margin-top: -290px;
+}
+
+.editbutton {
+    font-size: 10px;
+    color: White;
+    background: blue;
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+}
+.deletebutton {
+    font-size: 10px;
+    color: White;
+    background: red;
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+}
+
+.edit_form{
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    right: 880px;
+    bottom: 200px;
+    border: outset 1px white;
+    background-color: gray;
+    box-shadow: 0px 0px 2px 2px white;
+    display: none;
+}
+
+.updatebutton {
+    font-size: 15px;
+    color: White;
+    background: green;
+    border: outset white 2px;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+}
